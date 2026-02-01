@@ -140,6 +140,7 @@ button{
 <div id="slides"></div>
 
 <script>
+
 /* ================= TEXT ================= */
 
 const slidesText = [
@@ -217,7 +218,7 @@ slidesText.forEach((txt,i)=>{
 
 /* ================= GALLERY ================= */
 
-const images=["photo1.jpg","photo2.jpg","photo3.jpg","photo4.jpg","photo5.jpg"];
+const images=["photo1.jpg","photo2.JPG","photo3.jpg","photo4.jpg","photo5.jpg"];
 
 const g=document.createElement("div");
 g.className="slide";
@@ -295,8 +296,6 @@ function goGallery(){
  go(slidesText.length);
 }
 
-/* gallery nav */
-
 let gi=0;
 function moveG(d){
  const s=document.querySelectorAll(".gslide");
@@ -313,6 +312,8 @@ type(0);
 
 </body>
 </html>
+
+
 
 
 
